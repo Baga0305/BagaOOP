@@ -2,8 +2,6 @@ package com.example.myapplication;
 
 import android.util.Log;
 
-import android.util.Log;
-
 public class Cat extends  Animal {
     int age;
     String name;
