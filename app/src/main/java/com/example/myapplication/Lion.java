@@ -1,5 +1,4 @@
 package com.example.myapplication;
-
 import android.util.Log;
 
 public class Lion extends  Cat{
@@ -7,3 +6,4 @@ public class Lion extends  Cat{
         Log.i("talk()", "R-r-r! I'm lion. My name is " + name + ", and I'm " + age + " yaers old. My breed " + breed + ", my color is " + color);
     }
 }
+
