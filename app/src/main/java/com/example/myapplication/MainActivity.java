@@ -5,6 +5,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 
+import java.util.ArrayList;
+
 public class MainActivity extends AppCompatActivity {
 
     Cat myCat;
@@ -14,17 +16,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Cat vaska = new Cat();
-        vaska.talk("Meow, meow!");
+        Cat cat1 = new Cat();
+        Log.i("numberOfLegs", "cat1 number of legs"+cat1.number0fLegs + Cat.whatCatsLike());
 
-        Puma bagira = new Puma();
-        bagira.talk();
 
-        Cat puma = new Cat();
-        puma.talk();
-
-        Cat murzik = new Lion();
-        murzik.talk();
-
+        Lion lion = new Lion();
+        lion.talk();
     }
 }
