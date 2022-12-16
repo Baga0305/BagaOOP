@@ -1,10 +1,9 @@
 package com.example.myapplication;
 
-
 import android.util.Log;
 
 public class Cat extends  Animal {
-    int age;
+    protected int age;
     String name;
     String breed;
     String color;
@@ -25,4 +24,3 @@ public class Cat extends  Animal {
         Log.i("talk()", "Meow! My name is " + name + ", and I'm " + age + " yaers old. My breed " + breed + ", my color is " + color);
     }
 }
-
